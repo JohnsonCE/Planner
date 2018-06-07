@@ -5,12 +5,14 @@ Planner is a tool to be used to keep track of events inputted into your computer
 ### Difficulties or opportunities you encountered along the way.
 
 The largest difficulty was dispaying only one item of data at a certain reigon while displaying others at a completely different region. I ran into many problems of outputting every data item or no data items. In the end, I was able to split the process into two parts: 
+
 1) displays the data that one inputs right away 
 2) displays data one already inputted
+
 By doing this I was able to decide where to display each piece of data at a different location as it was needed.
 
 ### Most interesting piece of your code and explanation for what it does.
-
+for{
   if (count>0) {
     int x0123=260;
     int y04=200;
@@ -46,7 +48,7 @@ By doing this I was able to decide where to display each piece of data at a diff
   }
   text(s4, x, y); //Printed text
 }
-
+}
 This uses the count variable to see what is inputted into the ArrayList and then displays the data stored at that specidic index while checking to see where it should go with the use of previous data (X and Y coordinate data) in the changeX() and changeY() methods. In short, It goes backwards from whatever the count variable is (count == the # of event that is currently being inputted), and displays what the previous events were. By using what the count was at I was able determine what should be displayed, only displaying data that is before the current count # otherwise known as the event #.
 
 ## Built With
