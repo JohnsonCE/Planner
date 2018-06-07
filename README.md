@@ -10,7 +10,7 @@ The largest difficulty was dispaying only one item of data at a certain reigon w
 By doing this I was able to decide where to display each piece of data at a different location as it was needed.
 
 ### Most interesting piece of your code and explanation for what it does.
-//Displays previous data
+
   if (count>0) {
     int x0123=260;
     int y04=200;
@@ -60,5 +60,7 @@ Carter Johnson
 ## Acknowledgments
 
 My 2017-2018 planner and faulty organization skills for inspiration
+
 Dr. Reinarts - code help with inputing text and general logic
+
 Danny Cox - Unrestrictedly telling me that a class would never work for my idea--saved me many hours of work
